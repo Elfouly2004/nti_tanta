@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nti_flutter/home_screen.dart';
-import 'package:nti_flutter/page2.dart';
+
+import 'features/home/view/screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner:false ,
-      home: page()
+      home:HomeScreen()
     );
   }
 }
