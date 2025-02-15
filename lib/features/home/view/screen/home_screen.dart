@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppbar(),
-      body: pages[curindex], // عرض الصفحة الحالية بناءً على `curindex`
+      body: pages[curindex],
 
       bottomNavigationBar: Directionality(
         textDirection: TextDirection.rtl,
@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
           selectedItemColor: Colors.black,
           unselectedItemColor: Colors.grey,
           showUnselectedLabels: false,
-          onTap: (index) { // تحديث الصفحة عند تغيير التبويب
+          onTap: (index) {
             setState(() {
               curindex = index;
             });

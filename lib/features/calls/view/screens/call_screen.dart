@@ -25,12 +25,12 @@ class CallScreen extends StatelessWidget {
                   color: Colors.black,
                   fontSize: 16,
                 ),
-                textAlign: TextAlign.right, // محاذاة النص لليمين
+                textAlign: TextAlign.right,
               ),
               subtitle: Text(
                 "${call.date}, ${call.time}",
                 style: const TextStyle(color: Colors.grey),
-                textAlign: TextAlign.right, // محاذاة النص لليمين
+                textAlign: TextAlign.right,
               ),
               trailing: Icon(
                 call.isIncoming ? Icons.arrow_upward : Icons.arrow_downward,

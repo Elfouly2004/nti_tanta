@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       children: [
         Expanded(
           child: Directionality(
-            textDirection: TextDirection.rtl, // تغيير الاتجاه إلى اليمين
+            textDirection: TextDirection.rtl,
             child: ListView.builder(
               itemCount: chatData.length,
               itemBuilder: (context, index) {
