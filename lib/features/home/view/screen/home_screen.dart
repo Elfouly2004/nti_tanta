@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nti_flutter/features/calls/view/screens/call_screen.dart';
-import '../../../tools/views/screens/whats_tools_screen.dart';
-import '../../../updates/views/screens/whats_updates_screen.dart';
+// import '../../../tools/views/screens/whats_tools_screen.dart';
+// import '../../../updates/views/screens/whats_updates_screen.dart';
 import '../widgets/custom_appbar.dart';
 import 'home.dart';
 
@@ -18,8 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> pages = [
     Home(),
     CallScreen(),
-    WhatsAppUpdatesScreen(),
-    WhatsAppToolsScreen(),
+    // WhatsAppUpdatesScreen(),
+    // WhatsAppToolsScreen(),
 
   ];
 
